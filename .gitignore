@@ -2,9 +2,18 @@
 __pycache__/
 *.py[cod]
 *$py.class
+*.DS_Store
 
 # C extensions
 *.so
+.env
+
+# folders
+data/processed/*
+data/tmp/*
+data/external/*
+data/raw/*
+data/interim/*
 
 # Distribution / packaging
 .Python
